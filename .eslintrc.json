@@ -5,6 +5,8 @@
     "es2021": true,
     "node": true
   },
+  "plugins": ["import"],
+  "import/extensions": { "js": "always" },
   "extends": ["airbnb-base", "prettier"],
   "overrides": [],
   "parserOptions": {
